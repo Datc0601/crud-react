@@ -1,0 +1,80 @@
+body{
+  background-color: black;
+}
+
+table, td, th{
+  color: white;
+  border: 2px solid white;
+}
+thead{
+  background-color: rgba(185, 190, 185, 0.773);
+}
+
+td{
+  padding: 1rem;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor h1{
+  color: white;
+  text-align: center;
+}
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.formulario input{
+  width: 20rem;
+  height: 2rem;
+}
+
+.formulario button{
+  padding: 1rem 5rem;
+  background-color: rgb(28, 106, 28);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario button:hover{
+  background-color: rgb(38, 77, 38);
+}
+
+.botones{
+  display: flex;
+  gap: 1rem;
+}
+
+.btnEditar{
+  padding: 5px 10px;
+  background-color: rgb(12, 90, 246);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.btnEliminar{
+  padding: 5px 10px;
+  background-color: rgb(231, 14, 14);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.btnEditar:hover{
+  background-color: rgb(20, 20, 115);
+}
+
+.btnEliminar:hover{
+  background-color: rgb(84, 23, 24);
+}
